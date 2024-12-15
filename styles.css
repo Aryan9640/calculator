@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
     background-color: #f4f4f4;
 }
 
@@ -20,6 +21,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .display {
@@ -55,6 +57,22 @@ button:hover {
 
 button:active {
     background-color: #ccc;
+}
+
+/* Footer styling */
+footer {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+footer strong {
+    color: #0066cc;
 }
 
 @media (max-width: 480px) {
